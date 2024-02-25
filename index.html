@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Modal</title>
+</head>
+<body>  
+    <div class="modal">
+        <div class="modal__header">
+            <h2>Modal title</h2>
+            <button onclick="fnClose()">X</button>
+        </div>
+        <div class="modal__body">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non numquam maiores, aperiam qui dolores modi tempore! Doloremque hic consequatur, sit culpa cupiditate totam quaerat quos corporis quae? Vel dignissimos vero, nobis architecto recusandae fugit minus, nam quaerat, aliquam corporis delectus eaque? Dolores qui corporis architecto provident corrupti dolorum atque similique.</p>
+        </div>
+        <div class="modal__footer">
+            <button onclick="fnClose()">colse</button>
+            <button>save</button>
+
+        </div>
+    </div>
+    <button class="btn" onclick="fnOpen()">open modal</button>
+    <div onclick="fnClose()" class="modal__shadow">
+        
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
